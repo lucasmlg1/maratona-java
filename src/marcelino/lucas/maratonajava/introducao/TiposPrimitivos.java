@@ -1,6 +1,6 @@
 package marcelino.lucas.maratonajava.introducao;
 
-public class PrimitiveTypes {
+public class TiposPrimitivos {
     public static void main(String[] args){
         // int, double, float, char, byte, short, long and boolean.
         int age = 18;

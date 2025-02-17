@@ -1,6 +1,6 @@
 package marcelino.lucas.maratonajava.introducao;
 
-public class Operators {
+public class Operadores {
     public static void main(String[] args) {
         // + - / *
         int number1 = 45;

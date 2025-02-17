@@ -1,6 +1,6 @@
 package marcelino.lucas.maratonajava.introducao;
 
-public class ExercisesPrimitiveTypes {
+public class ExerciciosTiposPrimitivos {
     public static void main(String[] args) {
         String name = "Lucas";
         String address = "Higashi Ogishima Park";
