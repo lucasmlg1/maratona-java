@@ -10,8 +10,9 @@ public class ArraysMultidimensionais02 {
         arrayInt[1] = new int[]{1,2,3,4};
         arrayInt[2] = array2;
 
+        int [][] arrayTeste = {{1,2,3},{4,5,6},{7,8,9}};
 
-        for (int[] arrayBase:arrayInt){
+        for (int[] arrayBase:arrayTeste){
             System.out.println("\n");
             for (int num:arrayBase){
                 System.out.print(num + " ");

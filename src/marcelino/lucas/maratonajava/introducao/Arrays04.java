@@ -9,8 +9,13 @@ public class Arrays04 {
 //        for (int i=0;i<numeros2.length;i++){
 //            System.out.println(numeros2[i]);
 //        }
-        for(int num:numeros3){
-            System.out.println(num);
+
+        for (int j=0;j<numeros3.length;j++){
+            System.out.print(numeros3[j] + " ");
         }
+
+//        for(int num:numeros3){
+//            System.out.println(num);
+//        }
     }
 }
