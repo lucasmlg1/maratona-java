@@ -35,6 +35,25 @@ public class Calculadora {
         System.out.println("Dentro do alteraDoisNumeros");
         System.out.println("Num1 " + num1);
         System.out.println("Num2 " + num2);
-
     }
+    // DESAFIO: CRIAR UMA CALCULADORA QUE VALIDA SE O NUMERO É PRIMO OU NÃO. RETORNAR TRUE, SE FOR PRIMO,
+    // RETORNAR FALSE, SE NÃO FOR.
+
+    //DESAFIO 2: CRIAR UMA CALCULADORA QUE RECEBE UMA LISTA/ARRAY,
+    // RETORNA A LISTA X2.
+
+    public boolean numeroPrimo(int num){
+        int contador=0;
+        for (int i=1;i<=num;i++){
+            if (num%i==0){
+                contador++;
+            }
+        }
+        if (contador==2){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
 }
